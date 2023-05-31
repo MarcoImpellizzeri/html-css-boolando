@@ -146,3 +146,32 @@ footer {
 footer a {
     color: white;
 }
+
+footer h6 {
+    font-size: 1rem;
+}
+
+footer span {
+    font-size: .8rem;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.legal-notes ul, .social-links ul {
+    display: flex;
+}
+
+.legal-notes ul li{
+    font-size: .7rem;
+}
+
+.legal-notes ul li, .social-links ul li{
+    padding: 10px 10px 10px 0px;
+}
+
+
+

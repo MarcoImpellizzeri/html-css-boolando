@@ -25,10 +25,11 @@ a {
 
 /* header start */
 
-header{
-    background-color: #FF6900;
-}
 .nav-bar {
+    position: fixed;
+    background-color: #FF6900;
+    width: 100%;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +66,8 @@ header img {
 /* main start */
 
 main{
-    padding: 3rem 0;
+    padding: 90px 10px 40px 10px;
+
 }
 .row {
     display: flex;
@@ -80,6 +82,7 @@ main{
 .cards-dress{
     position: relative;
 }
+
 
 .cards-dress img {
     width: 100%;
@@ -118,6 +121,10 @@ main{
     padding-bottom: 40px;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .color-black, .price-black, .heart {
     color: black;
 }
@@ -134,7 +141,17 @@ h5 {
     color: red;
 }
 
+.img2 {
+    display: none;
+}
 
+.col:hover .img2 {
+    display: inline;
+}
+
+.col:hover .img1 {
+    display: none;
+}
 
 /* footer start */
 
@@ -158,7 +175,7 @@ footer span {
 .footer-flex{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .legal-notes ul, .social-links ul {

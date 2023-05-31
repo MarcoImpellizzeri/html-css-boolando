@@ -30,6 +30,7 @@ a {
     background-color: #FF6900;
     width: 100%;
     z-index: 1;
+    box-shadow: 4px 4px 4px #dedede;
 }
 
 .nav-cont {
